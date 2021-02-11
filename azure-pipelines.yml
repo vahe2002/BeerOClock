@@ -7,8 +7,9 @@ trigger:
 - main
 
 variables:
-  # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'b03ee9b1-6886-4dd7-a89f-db104b250098'
+- group: azureSubscription:
+- name: azureSubscription:
+  value: 'b03ee9b1-6886-4dd7-a89f-db104b250098'
 
   # Function app name
   functionAppName: 'beeroclock'
