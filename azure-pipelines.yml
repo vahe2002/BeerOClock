@@ -6,9 +6,8 @@
 trigger:
 - main
 
-variables:
-- name: azureSubscription:
-  value: 'b03ee9b1-6886-4dd7-a89f-db104b250098'
+variables:       
+  azureSubscription: 'b03ee9b1-6886-4dd7-a89f-db104b250098'
 
   # Function app name
   functionAppName: 'beeroclock'
